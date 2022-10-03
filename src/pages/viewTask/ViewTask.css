@@ -1,0 +1,41 @@
+.task_box {
+    background-color: #087dea1a;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.flex_btn_title {
+    display: flex;
+    align-items: center;
+}
+
+.block_note {
+    color: #30e68b;
+}
+
+.title {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.description {
+    color: #dbdfdda2;
+    font-size: 23px;
+    margin: 4px 0 ;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.back_task {
+    font-size: 20px;
+    color: #eef3f8fb;
+    margin-right: 5px;
+}

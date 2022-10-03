@@ -1,0 +1,37 @@
+.flex_task_btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_task_btn input {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+}
+
+.task_input {
+    color: #ffffffa8;
+    border: 1px solid #0e5fbb86;
+    outline: none;
+    border-radius: 6px;
+    background: none;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.btn_save_task {
+    background-color: #087BEA;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0 0.3em #0000ff8e);
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 3px;
+}

@@ -1,0 +1,61 @@
+.task_box_list_with_title {
+    background-color: #087dea1a;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.container_tasks {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.task_box_list_with_title h4 {
+    font-size: 22px;
+}
+
+.flex_options {
+    display: flex;
+    align-items: center;
+}
+
+.btn_trash {
+    color: #ec566f;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #2b86e0fb;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.add_mew_task {
+    color: #042f5afb;
+    font-size: 27px;
+    position: absolute;
+    top: 2px;
+    right: 4px;
+}
+
+.message_list_empty {
+    color: #ededee38;
+    margin: 20px 0;
+}
+
+.send_task {
+    color: #f1f1f1da;
+    font-size: 24px;
+    margin: 0 10px;
+}
