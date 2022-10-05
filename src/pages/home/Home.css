@@ -21,3 +21,7 @@
 .option_start:hover {
     background-color: #054b8d;
 }
+
+a:hover {
+    color: #fff;
+}

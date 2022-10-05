@@ -25,14 +25,6 @@
     align-items: center;
 }
 
-.btn_trash {
-    color: #ec566f;
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 .options {
     background-color: #56b0ec;
     display: flex;
