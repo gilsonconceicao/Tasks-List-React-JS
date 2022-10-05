@@ -16,7 +16,8 @@ const ButtonRemove = () => {
     const handleRemoveTask = (id) => {
         const remove = storageTasks.filter(task => task.id != id);
         localStorage.setItem("tasksSaveUsers", JSON.stringify(remove));
-        return setTasks(remove)
+        setShow(false);
+        return setTasks(remove); 
     }
 
     return (
@@ -27,7 +28,7 @@ const ButtonRemove = () => {
 
             <div>
                 {storageTasks.map(task => (
-                    <Modal className='modal' show={show} onHide={handleClose} animation={false}>
+                    <Modal key={task.id} className='modal' show={show} onHide={handleClose} animation={false}>
                         <Modal.Header closeButton>
                             <Modal.Title>🔔 Alerta!</Modal.Title>
                         </Modal.Header>

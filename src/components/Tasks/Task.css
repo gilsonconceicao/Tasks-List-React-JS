@@ -4,16 +4,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    height: 10vh;
     margin: 10px 0;
     position: relative;
 }
 
-.title {
-    position: absolute;
-    top: 5px;
-    left: 10px;
-}
 
 .container_tasks {
     display: flex;
@@ -22,7 +17,7 @@
 
 .task_box_list_with_title h4 {
     font-size: 22px;
-    margin-left: 10px;
+    margin: 0 20px ;
 }
 
 .flex_options {
@@ -42,8 +37,9 @@
     background-color: #56b0ec;
     display: flex;
     align-items: center;
+    justify-content: baseline;
     border-radius: 5px;
-    height: 10vh;
+    padding: 0 30px;
     position: relative;
 }
 
@@ -55,12 +51,12 @@
     color: #242525;
     font-size: 33px;
     position: absolute;
-    top: 8px;
-    right: 10px;
+    top: 2px;
+    right: 30px;
 }
 
 .add_mew_task:hover {
-    color: #242525;
+    color: #2b2c2e;
 }
 
 .message_list_empty {

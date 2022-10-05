@@ -52,7 +52,11 @@ label {
 }
 
 .modal {
-  color: #222;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #272424;
 }
 
 /* messages */

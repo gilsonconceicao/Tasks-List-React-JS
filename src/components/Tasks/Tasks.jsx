@@ -31,7 +31,6 @@ export const Tasks = () => {
         <Link to='/createdTask' className='add_mew_task'>
           <MdAddCircle />
         </Link>
-
       </div>
 
       <div className='container_tasks'>
