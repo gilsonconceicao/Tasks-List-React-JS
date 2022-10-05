@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { IoMdArrowRoundBack } from 'react-icons/io';
-import { FaTrashAlt } from 'react-icons/fa';
+
 import './ViewTask.css';
 import { UseTasks } from '../../contexts/TasksContext';
 
@@ -14,7 +14,6 @@ export const ViewTask = () => {
     const handleRemoveTask = (id) => {
         const remove = storageTasks.filter(checkedId => checkedId.id != id);
         localStorage.setItem("tasksSaveUsers", JSON.stringify(remove));
-        window.location.href = '/tasks'; 
         
         return setTasks(remove);    
 
@@ -37,9 +36,7 @@ export const ViewTask = () => {
                     <p className='description'>{task.description}</p>
                     <span className='date'>{task.date}</span>
 
-                    <button className='btn_trash' onClick={() => handleRemoveTask(task.id)}>
-                <FaTrashAlt />
-              </button>
+                 
                 </div>
             ))}
         </div>

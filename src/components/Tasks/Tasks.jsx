@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MdAddCircle } from 'react-icons/md';
-
+import { FaTrashAlt } from 'react-icons/fa';
 import { BiSend } from 'react-icons/bi';
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import { Link } from 'react-router-dom';
@@ -38,8 +38,10 @@ export const Tasks = () => {
         {storageTasks ? storageTasks.map(task => (
           <div key={task.id} className='task_box_list_with_title'>
             <h4>{task.title}</h4>
+            <button className='btn_trash' onClick={() => handleRemoveTask(task.id)}>
+                <FaTrashAlt />
+              </button>
             <div className='flex_options'>
-             
               <Link className='send_task' to={`/viewtask/${task.id}`}>
                 <BiSend />
               </Link>
