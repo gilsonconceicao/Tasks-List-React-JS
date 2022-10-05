@@ -51,6 +51,10 @@ label {
   font-style: italic;
 }
 
+.modal {
+  color: #222;
+}
+
 /* messages */
 
 .message_error {

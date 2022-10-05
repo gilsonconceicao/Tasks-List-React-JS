@@ -16,6 +16,7 @@ export const TasksProviderContext = ({ children }) => {
             id: uuid(),  
             title, 
             description,
+            completed: true, 
             date: new Date().toLocaleDateString() 
         })
 

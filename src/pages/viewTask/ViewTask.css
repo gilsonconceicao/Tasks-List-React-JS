@@ -39,3 +39,21 @@
     color: #eef3f8fb;
     margin-right: 5px;
 }
+
+.mark_completed {
+    font-size: 20px;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    border-radius: 4px ;
+    border: none;
+    padding: 3px;
+    transition: .3s;
+    position: absolute;
+    top: 30px ;
+    right: 10px;
+}
+
+.mark_completed:hover {
+    color: #1ddd7d;
+}

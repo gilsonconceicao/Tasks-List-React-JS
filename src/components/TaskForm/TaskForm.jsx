@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navigate, Link } from "react-router-dom";
-import {IoMdArrowRoundBack} from 'react-icons/io'
+import {IoMdArrowRoundBack} from 'react-icons/io';
 import { UseTasks } from '../../contexts/TasksContext';
 import './TaskForm.css'; 
 
@@ -19,7 +19,7 @@ export const TaskForm = () => {
         return;
         
       } else {
-        getTasksUser(title, description)
+        getTasksUser(title, description);
         setMessageError(''); 
         setPermission(true); 
       }
